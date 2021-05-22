@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "UhfeOowNJRUTm6MrI2cvksMP2HUmjtiwN3Wgb/oni/OnPovHVlbQy1pig2plDFMP0VUipEGNFjCJr5pImVq5aA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\acollazos\\source\\repos\\AppConsoleTest\\AppConsoleTest\\AppConsoleTest.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\acollazos\\.nuget\\packages\\restsharp\\106.11.7\\restsharp.106.11.7.nupkg.sha512"
+  ],
+  "logs": []
+}

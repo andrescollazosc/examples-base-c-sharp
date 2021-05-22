@@ -1,0 +1,7 @@
+C:\Users\acollazos\source\repos\AppConsoleTest\MatchingStringsSol\bin\Debug\MatchingStringsSol.exe.config
+C:\Users\acollazos\source\repos\AppConsoleTest\MatchingStringsSol\bin\Debug\MatchingStringsSol.exe
+C:\Users\acollazos\source\repos\AppConsoleTest\MatchingStringsSol\bin\Debug\MatchingStringsSol.pdb
+C:\Users\acollazos\source\repos\AppConsoleTest\MatchingStringsSol\obj\Debug\MatchingStringsSol.csprojAssemblyReference.cache
+C:\Users\acollazos\source\repos\AppConsoleTest\MatchingStringsSol\obj\Debug\MatchingStringsSol.csproj.CoreCompileInputs.cache
+C:\Users\acollazos\source\repos\AppConsoleTest\MatchingStringsSol\obj\Debug\MatchingStringsSol.exe
+C:\Users\acollazos\source\repos\AppConsoleTest\MatchingStringsSol\obj\Debug\MatchingStringsSol.pdb

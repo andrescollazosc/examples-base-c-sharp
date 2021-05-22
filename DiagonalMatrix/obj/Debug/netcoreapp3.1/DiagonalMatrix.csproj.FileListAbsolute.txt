@@ -1,0 +1,13 @@
+C:\Users\acollazos\source\repos\AppConsoleTest\DiagonalMatrix\bin\Debug\netcoreapp3.1\DiagonalMatrix.exe
+C:\Users\acollazos\source\repos\AppConsoleTest\DiagonalMatrix\bin\Debug\netcoreapp3.1\DiagonalMatrix.deps.json
+C:\Users\acollazos\source\repos\AppConsoleTest\DiagonalMatrix\bin\Debug\netcoreapp3.1\DiagonalMatrix.runtimeconfig.json
+C:\Users\acollazos\source\repos\AppConsoleTest\DiagonalMatrix\bin\Debug\netcoreapp3.1\DiagonalMatrix.runtimeconfig.dev.json
+C:\Users\acollazos\source\repos\AppConsoleTest\DiagonalMatrix\bin\Debug\netcoreapp3.1\DiagonalMatrix.dll
+C:\Users\acollazos\source\repos\AppConsoleTest\DiagonalMatrix\bin\Debug\netcoreapp3.1\DiagonalMatrix.pdb
+C:\Users\acollazos\source\repos\AppConsoleTest\DiagonalMatrix\obj\Debug\netcoreapp3.1\DiagonalMatrix.csprojAssemblyReference.cache
+C:\Users\acollazos\source\repos\AppConsoleTest\DiagonalMatrix\obj\Debug\netcoreapp3.1\DiagonalMatrix.AssemblyInfoInputs.cache
+C:\Users\acollazos\source\repos\AppConsoleTest\DiagonalMatrix\obj\Debug\netcoreapp3.1\DiagonalMatrix.AssemblyInfo.cs
+C:\Users\acollazos\source\repos\AppConsoleTest\DiagonalMatrix\obj\Debug\netcoreapp3.1\DiagonalMatrix.csproj.CoreCompileInputs.cache
+C:\Users\acollazos\source\repos\AppConsoleTest\DiagonalMatrix\obj\Debug\netcoreapp3.1\DiagonalMatrix.dll
+C:\Users\acollazos\source\repos\AppConsoleTest\DiagonalMatrix\obj\Debug\netcoreapp3.1\DiagonalMatrix.pdb
+C:\Users\acollazos\source\repos\AppConsoleTest\DiagonalMatrix\obj\Debug\netcoreapp3.1\DiagonalMatrix.genruntimeconfig.cache

@@ -1,0 +1,7 @@
+C:\Users\acollazos\source\repos\AppConsoleTest\ArrayManipulationSln\bin\Debug\ArrayManipulationSln.exe.config
+C:\Users\acollazos\source\repos\AppConsoleTest\ArrayManipulationSln\bin\Debug\ArrayManipulationSln.exe
+C:\Users\acollazos\source\repos\AppConsoleTest\ArrayManipulationSln\bin\Debug\ArrayManipulationSln.pdb
+C:\Users\acollazos\source\repos\AppConsoleTest\ArrayManipulationSln\obj\Debug\ArrayManipulationSln.csprojAssemblyReference.cache
+C:\Users\acollazos\source\repos\AppConsoleTest\ArrayManipulationSln\obj\Debug\ArrayManipulationSln.csproj.CoreCompileInputs.cache
+C:\Users\acollazos\source\repos\AppConsoleTest\ArrayManipulationSln\obj\Debug\ArrayManipulationSln.exe
+C:\Users\acollazos\source\repos\AppConsoleTest\ArrayManipulationSln\obj\Debug\ArrayManipulationSln.pdb

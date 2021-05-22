@@ -1,0 +1,13 @@
+C:\Users\acollazos\source\repos\AppConsoleTest\TestMath\bin\Debug\netcoreapp3.1\TestMath.exe
+C:\Users\acollazos\source\repos\AppConsoleTest\TestMath\bin\Debug\netcoreapp3.1\TestMath.deps.json
+C:\Users\acollazos\source\repos\AppConsoleTest\TestMath\bin\Debug\netcoreapp3.1\TestMath.runtimeconfig.json
+C:\Users\acollazos\source\repos\AppConsoleTest\TestMath\bin\Debug\netcoreapp3.1\TestMath.runtimeconfig.dev.json
+C:\Users\acollazos\source\repos\AppConsoleTest\TestMath\bin\Debug\netcoreapp3.1\TestMath.dll
+C:\Users\acollazos\source\repos\AppConsoleTest\TestMath\bin\Debug\netcoreapp3.1\TestMath.pdb
+C:\Users\acollazos\source\repos\AppConsoleTest\TestMath\obj\Debug\netcoreapp3.1\TestMath.csprojAssemblyReference.cache
+C:\Users\acollazos\source\repos\AppConsoleTest\TestMath\obj\Debug\netcoreapp3.1\TestMath.AssemblyInfoInputs.cache
+C:\Users\acollazos\source\repos\AppConsoleTest\TestMath\obj\Debug\netcoreapp3.1\TestMath.AssemblyInfo.cs
+C:\Users\acollazos\source\repos\AppConsoleTest\TestMath\obj\Debug\netcoreapp3.1\TestMath.csproj.CoreCompileInputs.cache
+C:\Users\acollazos\source\repos\AppConsoleTest\TestMath\obj\Debug\netcoreapp3.1\TestMath.dll
+C:\Users\acollazos\source\repos\AppConsoleTest\TestMath\obj\Debug\netcoreapp3.1\TestMath.pdb
+C:\Users\acollazos\source\repos\AppConsoleTest\TestMath\obj\Debug\netcoreapp3.1\TestMath.genruntimeconfig.cache

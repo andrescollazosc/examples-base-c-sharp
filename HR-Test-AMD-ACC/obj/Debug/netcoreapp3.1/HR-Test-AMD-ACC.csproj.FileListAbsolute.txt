@@ -1,0 +1,12 @@
+C:\Users\acollazos\source\repos\AppConsoleTest\HR-Test-AMD-ACC\bin\Debug\netcoreapp3.1\HR-Test-AMD-ACC.exe
+C:\Users\acollazos\source\repos\AppConsoleTest\HR-Test-AMD-ACC\bin\Debug\netcoreapp3.1\HR-Test-AMD-ACC.deps.json
+C:\Users\acollazos\source\repos\AppConsoleTest\HR-Test-AMD-ACC\bin\Debug\netcoreapp3.1\HR-Test-AMD-ACC.runtimeconfig.json
+C:\Users\acollazos\source\repos\AppConsoleTest\HR-Test-AMD-ACC\bin\Debug\netcoreapp3.1\HR-Test-AMD-ACC.runtimeconfig.dev.json
+C:\Users\acollazos\source\repos\AppConsoleTest\HR-Test-AMD-ACC\bin\Debug\netcoreapp3.1\HR-Test-AMD-ACC.dll
+C:\Users\acollazos\source\repos\AppConsoleTest\HR-Test-AMD-ACC\bin\Debug\netcoreapp3.1\HR-Test-AMD-ACC.pdb
+C:\Users\acollazos\source\repos\AppConsoleTest\HR-Test-AMD-ACC\obj\Debug\netcoreapp3.1\HR-Test-AMD-ACC.AssemblyInfoInputs.cache
+C:\Users\acollazos\source\repos\AppConsoleTest\HR-Test-AMD-ACC\obj\Debug\netcoreapp3.1\HR-Test-AMD-ACC.AssemblyInfo.cs
+C:\Users\acollazos\source\repos\AppConsoleTest\HR-Test-AMD-ACC\obj\Debug\netcoreapp3.1\HR-Test-AMD-ACC.csproj.CoreCompileInputs.cache
+C:\Users\acollazos\source\repos\AppConsoleTest\HR-Test-AMD-ACC\obj\Debug\netcoreapp3.1\HR-Test-AMD-ACC.dll
+C:\Users\acollazos\source\repos\AppConsoleTest\HR-Test-AMD-ACC\obj\Debug\netcoreapp3.1\HR-Test-AMD-ACC.pdb
+C:\Users\acollazos\source\repos\AppConsoleTest\HR-Test-AMD-ACC\obj\Debug\netcoreapp3.1\HR-Test-AMD-ACC.genruntimeconfig.cache
