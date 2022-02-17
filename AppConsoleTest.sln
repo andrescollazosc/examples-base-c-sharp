@@ -11,8 +11,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HR-Test-AMD-ACC", "HR-Test-
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeftRotate", "LeftRotate\LeftRotate.csproj", "{ABAB34BE-AC36-49B2-8280-531B2770CCFC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplicationEjemplo", "WebApplicationEjemplo\WebApplicationEjemplo.csproj", "{4D68D047-5914-4916-84C6-79581B87D9A3}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicArray", "DynamicArray\DynamicArray.csproj", "{0CA754D7-166F-4EF1-BE9F-9376B90E055F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MatchingStringsSol", "MatchingStringsSol\MatchingStringsSol.csproj", "{7D872C6E-36F7-49EE-AABD-FC46C2FA91FF}"
