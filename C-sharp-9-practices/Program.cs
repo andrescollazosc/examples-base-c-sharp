@@ -7,34 +7,41 @@ namespace C_sharp_9_practices
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(IsActive(0));
 
-            char k = 'b';
-            Console.WriteLine(k.IsLetter1());
+            EnumA D;
+            EnumB C = EnumB.C;
+            D = (EnumA)C;
+
+            Console.WriteLine(D);
+
+            //Console.WriteLine(IsActive(0));
+
+            //char k = 'b';
+            //Console.WriteLine(k.IsLetter1());
 
 
-            Console.WriteLine(ValidateNull("Hi"));
+            //Console.WriteLine(ValidateNull("Hi"));
 
-            // Instnace class
-            Car car = new();
+            //// Instnace class
+            ////Car car = new();
 
-            List<CarEnt> list = new()
-            {
-                new() { Brand = "Mazda 3", Plate = "dfghj" },
-                new() { Brand = "Renault ", Plate = "djasdhj" },
-            };
+            //List<CarEnt> list = new()
+            //{
+            //    new() { Brand = "Mazda 3", Plate = "dfghj" },
+            //    new() { Brand = "Renault ", Plate = "djasdhj" },
+            //};
 
-            foreach (var item in list)
-            {
-                Console.WriteLine(item.Brand);
-            }
+            //foreach (var item in list)
+            //{
+            //    Console.WriteLine(item.Brand);
+            //}
 
-            Console.WriteLine(car.GetBrand("Mazda 3"));
+            ////Console.WriteLine(car.GetBrand("Mazda 3"));
 
-            Console.WriteLine();
-            Console.WriteLine();
-            Console.WriteLine();
-            Console.WriteLine(GetSalary(1));
+            //Console.WriteLine();
+            //Console.WriteLine();
+            //Console.WriteLine();
+            //Console.WriteLine(GetSalary(1));
 
 
         }
@@ -67,6 +74,18 @@ namespace C_sharp_9_practices
 
     }
 
+    public enum EnumA { 
+    A,
+    B,
+    C,
+    D
+    }
+
+    public enum EnumB
+    {
+        C,
+        D
+    }
     public enum SalaryEnum { 
         First = 1,
         Second,
