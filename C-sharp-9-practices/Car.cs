@@ -4,7 +4,6 @@
     public interface ICar {
         public string GetBrandI(string brand);
     }
-
     public interface ICar2
     {
         public string GetBrandI2(string brand);
@@ -23,7 +22,6 @@
 
 
     }
-
     public abstract class Car2
     {
 
