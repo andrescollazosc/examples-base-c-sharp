@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30907.101
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppConsoleTest", "AppConsoleTest\AppConsoleTest.csproj", "{6F832E4D-A1C1-4D09-94EA-63EB138B69DD}"
 EndProject
@@ -21,9 +21,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DiagonalMatrix", "DiagonalM
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BetweenTwoSet", "BetweenTwoSet\BetweenTwoSet.csproj", "{8BEAD5C3-EA5A-4551-A63F-825D52DFA926}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C-sharp-9-practices", "C-sharp-9-practices\C-sharp-9-practices.csproj", "{6A376B48-333B-414B-A87C-94772198BFA2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "C-sharp-9-practices", "C-sharp-9-practices\C-sharp-9-practices.csproj", "{6A376B48-333B-414B-A87C-94772198BFA2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp_fit_point74", "ConsoleApp_fit_point74\ConsoleApp_fit_point74.csproj", "{6B87D426-0C1A-46C0-B1C3-65B8C78938FC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp_fit_point74", "ConsoleApp_fit_point74\ConsoleApp_fit_point74.csproj", "{6B87D426-0C1A-46C0-B1C3-65B8C78938FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TiendaPagoCodilityTest", "TiendaPagoCodilityTest\TiendaPagoCodilityTest.csproj", "{39AFA5B9-076C-40A4-8A1A-9BC81B0CF602}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -47,10 +49,6 @@ Global
 		{ABAB34BE-AC36-49B2-8280-531B2770CCFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ABAB34BE-AC36-49B2-8280-531B2770CCFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ABAB34BE-AC36-49B2-8280-531B2770CCFC}.Release|Any CPU.Build.0 = Release|Any CPU
-		{4D68D047-5914-4916-84C6-79581B87D9A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4D68D047-5914-4916-84C6-79581B87D9A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4D68D047-5914-4916-84C6-79581B87D9A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4D68D047-5914-4916-84C6-79581B87D9A3}.Release|Any CPU.Build.0 = Release|Any CPU
 		{0CA754D7-166F-4EF1-BE9F-9376B90E055F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{0CA754D7-166F-4EF1-BE9F-9376B90E055F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0CA754D7-166F-4EF1-BE9F-9376B90E055F}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -79,6 +77,10 @@ Global
 		{6B87D426-0C1A-46C0-B1C3-65B8C78938FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6B87D426-0C1A-46C0-B1C3-65B8C78938FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6B87D426-0C1A-46C0-B1C3-65B8C78938FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39AFA5B9-076C-40A4-8A1A-9BC81B0CF602}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39AFA5B9-076C-40A4-8A1A-9BC81B0CF602}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39AFA5B9-076C-40A4-8A1A-9BC81B0CF602}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39AFA5B9-076C-40A4-8A1A-9BC81B0CF602}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
