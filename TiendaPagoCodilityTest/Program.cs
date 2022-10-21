@@ -1,30 +1,41 @@
-﻿public class Program
+﻿using Newtonsoft.Json;
+
+public class Program
 {
     public static void Main(string[] args) {
-        Console.WriteLine(Solution("4 5 6 - 7 +"));
-    }
+        
+        // string elements = "13 DUP 4 POP 5 DUP + DUP + -";
+        string elements = "23 DUP 4 POP 5 DUP -";
+        string[] arrElements = elements.Split(' ');
 
-    private static int Solution(string S)
-    {
-        var a = S.Split(' ');
+        Stack<int> stack = new Stack<int>();
 
-        foreach (var item in a)
+        for (int i=0; i< arrElements.Length;i++)
         {
-            switch (item)
+            int isNumeric;
+            if (int.TryParse(arrElements[i], out isNumeric))
             {
-                case "POP":
-                    
-                    break;
-                case "DUP":// duplica el elemento anterior de la pila
-                    //a.GetValue(a.)
-                    break;
-                case "+":
-                    break;
-                case "-":
-                    break;
+                stack.Push(isNumeric);
+            }else
+            {
+                switch (arrElements[i])
+                {
+                    case "POP":
+                        stack.Pop();
+                        break;
+                    case "DUP":
+                        stack.Push(stack.First());
+                        break;
+                    case "+":
+                        stack.Push(stack.Take(2).Sum());
+                        break;
+                    case "-":
+                        int previous = stack.Take(new Range(1, 2)).FirstOrDefault();
+                        stack.Push(stack.First() - previous);
+                        break;
+                }    
             }
         }
-
-        return a.Length;
+        Console.Write(JsonConvert.SerializeObject(stack));
     }
 }
