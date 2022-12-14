@@ -2,23 +2,30 @@
 
 public class Program
 {
-    public static void Main(string[] args) {
-        
-        // string elements = "13 DUP 4 POP 5 DUP + DUP + -";
-        string elements = "23 DUP 4 POP 5 DUP -";
-        string[] arrElements = elements.Split(' ');
+    public static void Main(string[] args)
+    {
+
+        var resStack = Solution("23 DUP 4 POP 5 DUP -");
+
+        Console.Write(JsonConvert.SerializeObject(resStack));
+    }
+
+    private static Stack<int> Solution(string inputOperations)
+    {
+        string[] arrElements = inputOperations.Split(' ');
 
         Stack<int> stack = new Stack<int>();
 
-        for (int i=0; i< arrElements.Length;i++)
+        foreach (string element in arrElements)
         {
             int isNumeric;
-            if (int.TryParse(arrElements[i], out isNumeric))
+            if (int.TryParse(element, out isNumeric))
             {
                 stack.Push(isNumeric);
-            }else
+            }
+            else
             {
-                switch (arrElements[i])
+                switch (element)
                 {
                     case "POP":
                         stack.Pop();
@@ -33,9 +40,9 @@ public class Program
                         int previous = stack.Take(new Range(1, 2)).FirstOrDefault();
                         stack.Push(stack.First() - previous);
                         break;
-                }    
+                }
             }
         }
-        Console.Write(JsonConvert.SerializeObject(stack));
+        return stack;
     }
 }
