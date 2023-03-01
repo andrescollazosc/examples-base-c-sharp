@@ -11,14 +11,57 @@ public class Program
 {
     public static string WordParser(string input)
     {
-        foreach (var word in input.Split(" "))
+        string output = string.Empty;
+        foreach (var word in input.Split(' '))
         {
-            foreach (var letter in word.Split(""))
-            {
-                Console.WriteLine(letter);
+            char prevChar = '\0';
+            var aux = new char[2];
+            string[] splittedWord = null;
+
+            foreach (var character in word) {
+                if (!Char.IsLetter(character))
+                {
+                    aux[0] = prevChar;
+                    aux[1] = character;
+                    splittedWord = word.Split(character);
+                }
+                prevChar= character;
             }
+
+            string resWord=string.Empty;
+
+            if (splittedWord != null && splittedWord.Length > 0)
+            {
+                string additionalSpace=string.Empty;
+                foreach (var subword in splittedWord)
+                {
+                    if (!string.IsNullOrEmpty(subword))
+                    {
+                        resWord += $"{subword.FirstOrDefault()}{GetCountUniqueLetters(subword)}{subword.LastOrDefault()} ";
+                    }
+                    else {
+                        additionalSpace = " ";
+                    }
+                }
+                if (aux.Count() > 0)
+                {
+                    resWord = resWord.Replace($"{aux[0]} ", $"{new string(aux)}{additionalSpace}");
+                }
+            }
+            else
+            {
+                resWord = $"{word.FirstOrDefault()}{GetCountUniqueLetters(word)}{word.LastOrDefault()} ";
+            }
+
+            output += resWord;
         }
-        return null;
+
+        return output.TrimEnd();
+    }
+
+    private static string GetCountUniqueLetters(string word) {
+        string countUniqueLetters = word.Substring(1, word.Length - 2).Distinct().Count().ToString();
+        return countUniqueLetters.Equals("0") ? string.Empty : countUniqueLetters; 
     }
 
     public static void Main()
