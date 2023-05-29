@@ -11,15 +11,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HR-Test-AMD-ACC", "HR-Test-
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeftRotate", "LeftRotate\LeftRotate.csproj", "{ABAB34BE-AC36-49B2-8280-531B2770CCFC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicArray", "DynamicArray\DynamicArray.csproj", "{0CA754D7-166F-4EF1-BE9F-9376B90E055F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DynamicArray", "DynamicArray\DynamicArray.csproj", "{0CA754D7-166F-4EF1-BE9F-9376B90E055F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MatchingStringsSol", "MatchingStringsSol\MatchingStringsSol.csproj", "{7D872C6E-36F7-49EE-AABD-FC46C2FA91FF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MatchingStringsSol", "MatchingStringsSol\MatchingStringsSol.csproj", "{7D872C6E-36F7-49EE-AABD-FC46C2FA91FF}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArrayManipulationSln", "ArrayManipulationSln\ArrayManipulationSln.csproj", "{917E6B25-DF5F-4317-B91F-25F528BE5234}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArrayManipulation", "ArrayManipulation\ArrayManipulation.csproj", "{917E6B25-DF5F-4317-B91F-25F528BE5234}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DiagonalMatrix", "DiagonalMatrix\DiagonalMatrix.csproj", "{62235FD7-D6CC-4B8C-8DCC-851F8197F1E6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BetweenTwoSet", "BetweenTwoSet\BetweenTwoSet.csproj", "{8BEAD5C3-EA5A-4551-A63F-825D52DFA926}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BetweenTwoSet", "BetweenTwoSet\BetweenTwoSet.csproj", "{8BEAD5C3-EA5A-4551-A63F-825D52DFA926}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "C-sharp-9-practices", "C-sharp-9-practices\C-sharp-9-practices.csproj", "{6A376B48-333B-414B-A87C-94772198BFA2}"
 EndProject
@@ -35,7 +35,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BruteForceAlgorithm", "Brut
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WordParserIntertec", "WordParserIntertec\WordParserIntertec.csproj", "{A075C3D4-3869-485A-8F7C-B10610FA9485}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quicksort1Partition", "Quicksort1Partition\Quicksort1Partition.csproj", "{55123549-ED2A-4529-9939-B548396DC740}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Quicksort1Partition", "Quicksort1Partition\Quicksort1Partition.csproj", "{55123549-ED2A-4529-9939-B548396DC740}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrintAndCountDuplicates", "PrintAndCountDuplicates\PrintAndCountDuplicates.csproj", "{A723BAC1-15BC-4324-8B02-B35CC0484A0E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -111,6 +113,10 @@ Global
 		{55123549-ED2A-4529-9939-B548396DC740}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{55123549-ED2A-4529-9939-B548396DC740}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{55123549-ED2A-4529-9939-B548396DC740}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A723BAC1-15BC-4324-8B02-B35CC0484A0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A723BAC1-15BC-4324-8B02-B35CC0484A0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A723BAC1-15BC-4324-8B02-B35CC0484A0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A723BAC1-15BC-4324-8B02-B35CC0484A0E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
