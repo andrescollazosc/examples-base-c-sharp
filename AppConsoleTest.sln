@@ -39,6 +39,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Quicksort1Partition", "Quic
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrintAndCountDuplicates", "PrintAndCountDuplicates\PrintAndCountDuplicates.csproj", "{A723BAC1-15BC-4324-8B02-B35CC0484A0E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindPhoneNumberOwner", "FindPhoneNumberOwner\FindPhoneNumberOwner.csproj", "{CA646D50-9EA2-4105-9294-C2A4B992A784}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -117,6 +119,10 @@ Global
 		{A723BAC1-15BC-4324-8B02-B35CC0484A0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A723BAC1-15BC-4324-8B02-B35CC0484A0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A723BAC1-15BC-4324-8B02-B35CC0484A0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA646D50-9EA2-4105-9294-C2A4B992A784}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA646D50-9EA2-4105-9294-C2A4B992A784}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA646D50-9EA2-4105-9294-C2A4B992A784}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA646D50-9EA2-4105-9294-C2A4B992A784}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
