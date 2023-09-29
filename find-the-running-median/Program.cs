@@ -35,7 +35,7 @@ public class program
                 medians.Add(myDecimal1);
             } else if (ordered.Count == 2) 
             {
-                decimal myDecimal2 = (ordered[0] + ordered[1]) / 2;
+                decimal myDecimal2 = (ordered[0] + ordered[1]) / 2.0m;
                 medians.Add(myDecimal2 + 0.0m);
             } else if (ordered.Count > 2)
             {
@@ -45,7 +45,7 @@ public class program
                     //Tome los dos de la mitad
                     decimal first = ordered[middle - 1];
                     decimal second = ordered[middle];
-                    decimal myDecimal3 = (first + second) / 2;
+                    decimal myDecimal3 = (first + second) / 2.0m;
                     medians.Add(myDecimal3 + 0.0m);
                 }
                 else
