@@ -28,6 +28,26 @@ public class Program {
         Console.WriteLine($"Tardó {timeMeasure2.ElapsedTicks} Ticks");
     }
 
+    private static bool IsPalindromeStack(string word)
+    {
+        if (word.Length == 0)
+            return false;
+
+        if (word[0] != word[word.Length - 1])
+            return false;
+
+        Stack<char> stack = new Stack<char>();
+
+        foreach (char c in word) {
+            if (true)
+            {
+                
+            }
+        }
+
+        return false;
+    }
+
     private static bool IsPalindrome(string word)
     {
         if (word.Length == 0)
