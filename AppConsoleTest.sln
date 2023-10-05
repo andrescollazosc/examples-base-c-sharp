@@ -47,11 +47,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "tree-level-order-traversal"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "balanced-brackets", "balanced-brackets\balanced-brackets.csproj", "{8A498BA6-9A1A-47C1-A9A9-7D538A5FAE30}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "contacts", "contacts\contacts.csproj", "{A1BDD555-4047-4BF4-856C-B0A287B4F37A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "contacts", "contacts\contacts.csproj", "{A1BDD555-4047-4BF4-856C-B0A287B4F37A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "find-the-running-median", "find-the-running-median\find-the-running-median.csproj", "{B58D2B68-3769-4A31-B038-EFE7480C3E22}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "find-the-running-median", "find-the-running-median\find-the-running-median.csproj", "{B58D2B68-3769-4A31-B038-EFE7480C3E22}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "swap-nodes-algo", "swap-nodes-algo\swap-nodes-algo.csproj", "{082EF18F-A3D0-4D89-A1F2-7760E4703B72}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "swap-nodes-algo", "swap-nodes-algo\swap-nodes-algo.csproj", "{082EF18F-A3D0-4D89-A1F2-7760E4703B72}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmazonTransactionLogs", "AmazonTransactionLogs\AmazonTransactionLogs.csproj", "{DB17E993-27AD-4380-8199-DC0A4BA4FCD6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaximumBookCopies", "MaximumBookCopies\MaximumBookCopies.csproj", "{B3DD0B12-51E3-4DC4-8AC6-4FDB70AC7B16}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmazonDeliveryCenters", "AmazonDeliveryCenters\AmazonDeliveryCenters.csproj", "{B0C7914D-B3FF-4671-A01D-02F63C0C6C10}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -159,6 +165,18 @@ Global
 		{082EF18F-A3D0-4D89-A1F2-7760E4703B72}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{082EF18F-A3D0-4D89-A1F2-7760E4703B72}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{082EF18F-A3D0-4D89-A1F2-7760E4703B72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB17E993-27AD-4380-8199-DC0A4BA4FCD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB17E993-27AD-4380-8199-DC0A4BA4FCD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB17E993-27AD-4380-8199-DC0A4BA4FCD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB17E993-27AD-4380-8199-DC0A4BA4FCD6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3DD0B12-51E3-4DC4-8AC6-4FDB70AC7B16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3DD0B12-51E3-4DC4-8AC6-4FDB70AC7B16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3DD0B12-51E3-4DC4-8AC6-4FDB70AC7B16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3DD0B12-51E3-4DC4-8AC6-4FDB70AC7B16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0C7914D-B3FF-4671-A01D-02F63C0C6C10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0C7914D-B3FF-4671-A01D-02F63C0C6C10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0C7914D-B3FF-4671-A01D-02F63C0C6C10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0C7914D-B3FF-4671-A01D-02F63C0C6C10}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
