@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text.Json;
-using System.Xml.Linq;
+﻿using System.Text.Json;
 
 public class Program
 {
@@ -168,30 +164,45 @@ public class Program
         //    }
         //});
 
-        Stack<List<int>> stackIndexes = new Stack<List<int>>(indexes);
+        //Stack<List<int>> stackIndexes = new Stack<List<int>>(indexes);
 
         List<List<List<int>>> tree = new List<List<List<int>>>();
 
-        List<List<int>> level1;
-        List<List<int>> level2;//,[4,-1],[5,-1]
-        List<List<int>> level3 = new List<List<int>>();//[6,-1],[7,8],[-1,9],[-1,-1]...
-        int counter = 1;
-        for (int i = 0; i <= stackIndexes.Count; i++) {
+       //indexes-> [2,3]  [4,-1],[5,-1]   [6,-1],[7,8],[-1,9],[-1,-1]...
+                               //i      ->  0      1      2        3      4     5       6....
+                               //counter->  1      2               4                                8...
+        
 
-            if (i==0)
+        //recorrer los niveles del arbol
+
+
+        int counterByLevel = 1;//Me dice cuantas duplas tomaré por nivel
+
+        /////////////////////////
+        ///
+        for (int j = 1; j <= counterByLevel; j++) {
+            var level = new List<List<int>>();
+
+            level.AddRange(indexes.Take(counterByLevel));
+            tree.Add(level);
+
+            Console.WriteLine(JsonSerializer.Serialize(level));
+
+            if (indexes.Count >= counterByLevel)
             {
-                level1 = new List<List<int>>();
-                level1.Add(stackIndexes.Pop());
-            }
-
-            for (int j = 0; j < counter; j++) {
+                indexes.RemoveRange(0, counterByLevel);
                 
-                new List<List<int>>().Add(stackIndexes.Pop());
-
+            }
+            else
+            {
+                break;
             }
 
-            counter = counter * 2;
+            counterByLevel = counterByLevel * 2;
         }
+
+
+        ///////////////////////
 
         //queries.ForEach(k =>
         //{
