@@ -2,8 +2,6 @@
 {
     public static void Main(string[] args)
     {
-        //TextWriter textWriter = new StreamWriter(@System.Environment.GetEnvironmentVariable("OUTPUT_PATH"), true);
-
         int logsCount = Convert.ToInt32(Console.ReadLine().Trim());
 
         List<string> logs = new List<string>();
@@ -16,30 +14,11 @@
 
         int threshold = Convert.ToInt32(Console.ReadLine().Trim());
 
-        List<string> result = Result.processLogs(logs, threshold);
-
-        //textWriter.WriteLine(String.Join("\n", result));
-
-        //textWriter.Flush();
-        //textWriter.Close();
+        List<string> result = processLogs(logs, threshold);
     }
 
-    class Result
+    public static List<string> processLogs(List<string> logs, int threshold)
     {
-
-        /*
-         * Complete the 'processLogs' function below.
-         *
-         * The function is expected to return a STRING_ARRAY.
-         * The function accepts following parameters:
-         *  1. STRING_ARRAY logs
-         *  2. INTEGER threshold
-         */
-
-        public static List<string> processLogs(List<string> logs, int threshold)
-        {
-            return null;
-        }
-
+        return null;
     }
 }
