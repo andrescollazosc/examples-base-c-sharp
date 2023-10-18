@@ -1,6 +1,6 @@
 ﻿using System.Text.Json;
 
-//https://www.hackerrank.com/test/63ek10mhil5/60d306ab105867d80fca544041154273
+// https://www.hackerrank.com/test/63ek10mhil5/60d306ab105867d80fca544041154273
 
 public class Program
 {
@@ -10,13 +10,21 @@ public class Program
 
         int threshold = 2;
 
-        List<string> result = processLogs(logs, threshold);
+        List<string> result = ProcessLogs(logs, threshold);
+
+        Console.WriteLine(JsonSerializer.Serialize(result));
     }
 
-    public static List<string> processLogs(List<string> logs, int threshold)
+    /// <summary>
+    /// Receive a list of transactions to calculate the id's that have more than a threshold transactions
+    /// </summary>
+    /// <param name="logs"></param>
+    /// <param name="threshold"></param>
+    /// <returns>A list of id's that have more than a threshold transactions</returns>
+    public static List<string> ProcessLogs(List<string> logs, int threshold)
     {
         List<string> resultIds = new List<string>();
-
+        
         logs.ForEach(log =>
         {
             var arrDataBylog = log.Split(" ");
@@ -33,11 +41,9 @@ public class Program
                 resultIds.Add(sender_user_id);
                 resultIds.Add(recipient_user_id);
             }
-
-            
         });
 
-        var a = resultIds.GroupBy(id => id)
+        var grouped = resultIds.GroupBy(id => id)
             .Select(g => {
                 return new
                 {
@@ -47,7 +53,7 @@ public class Program
             });
 
         List<string> finalIds = new List<string>();
-        foreach (var keyValue in a)
+        foreach (var keyValue in grouped)
         {
             if (keyValue.Count>=threshold)
             {
@@ -56,7 +62,6 @@ public class Program
         }
         finalIds.Sort();
 
-        Console.WriteLine(JsonSerializer.Serialize(finalIds));
         return finalIds;
     }
 }
