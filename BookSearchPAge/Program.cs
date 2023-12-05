@@ -5,7 +5,7 @@
         var a = SearchPage(6, 4);
     }
 
-    public int SearchPage(int n, int p)
+    public static int SearchPage(int n, int p)
     {
         int left = 0;
         int right = 1;
@@ -32,7 +32,7 @@
 
         //var step = IsPair(n) ? left : right;
 
-        
+        return 1;
     }
 
     private static bool IsPair(int n){

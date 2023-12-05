@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Text.Json;
 
 namespace ArrayManipulation
 {
@@ -16,6 +17,8 @@ namespace ArrayManipulation
                 { 6, 9, 1 },
                 { 2, 6, 2 }
             };
+
+            //Console.WriteLine(JsonSerializer.Serialize(mat));
 
             int n = 10;
             var test = arrayManipulation(n, mat);
@@ -118,43 +121,6 @@ namespace ArrayManipulation
 
             return finalArray;
         }
-
-        /*static int[,] completeMatrix(int queries[,], int row) {
-            int aux = 0;
-
-            if (row > 1) {
-                if (queries[row,0] < queries[row - 1,0]) {
-                    aux = queries[row,0];
-                } else {
-                    aux = queries[row - 1,0];
-                }
-            }
-
-            if ((aux - 1) < 0) {
-                aux = 0;
-            } else {
-                aux = aux -1;
-            }
-        }*/
-
-        //static int findMax(int[,] mat, int n)
-        //{
-        //    int maxElement = 0; // Integer.MIN_VALUE;
-        //    for (int i = 0; i < mat.Length; i++)
-        //    {
-        //        for (int j = 0; j < n; j++)
-        //        {
-        //            if (mat[i,j] > maxElement)
-        //            {
-        //                maxElement = mat[i, j];
-        //            }
-        //        }
-        //    }
-
-        //    return maxElement;
-        //}
-
-
 
     }
 }
