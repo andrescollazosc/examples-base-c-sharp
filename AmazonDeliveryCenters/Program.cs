@@ -6,8 +6,8 @@ public class Program
     {
         //var a = suitableLocations(new List<int> { 2, 0, 3, -4 }, 22);
         //var a = suitableLocations(new List<int> { -2, 1, 0 }, 8);
-        var a = suitableLocations(new List<int> { -1, 0, 1 }, 8);
-        Console.WriteLine(JsonSerializer.Serialize(a));
+        var suitableCenters = suitableLocations(new List<int> { -1, 0, 1 }, 8);
+        Console.WriteLine(JsonSerializer.Serialize(suitableCenters));
     }
     public static int suitableLocations(List<int> center, long d)
     {
