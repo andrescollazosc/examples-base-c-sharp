@@ -51,13 +51,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "find-the-running-median", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "swap-nodes-algo", "swap-nodes-algo\swap-nodes-algo.csproj", "{082EF18F-A3D0-4D89-A1F2-7760E4703B72}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmazonTransactionLogs", "AmazonTransactionLogs\AmazonTransactionLogs.csproj", "{DB17E993-27AD-4380-8199-DC0A4BA4FCD6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AmazonTransactionLogs", "AmazonTransactionLogs\AmazonTransactionLogs.csproj", "{DB17E993-27AD-4380-8199-DC0A4BA4FCD6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaximumBookCopies", "MaximumBookCopies\MaximumBookCopies.csproj", "{B3DD0B12-51E3-4DC4-8AC6-4FDB70AC7B16}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MaximumBookCopies", "MaximumBookCopies\MaximumBookCopies.csproj", "{B3DD0B12-51E3-4DC4-8AC6-4FDB70AC7B16}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmazonDeliveryCenters", "AmazonDeliveryCenters\AmazonDeliveryCenters.csproj", "{B0C7914D-B3FF-4671-A01D-02F63C0C6C10}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AmazonDeliveryCenters", "AmazonDeliveryCenters\AmazonDeliveryCenters.csproj", "{B0C7914D-B3FF-4671-A01D-02F63C0C6C10}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MigratoryBirds", "MigratoryBirds\MigratoryBirds.csproj", "{92C06AA3-7B2F-4A23-9461-872B0678EBAF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MigratoryBirds", "MigratoryBirds\MigratoryBirds.csproj", "{92C06AA3-7B2F-4A23-9461-872B0678EBAF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrintListDefiningItemsByRow", "PrintListDefiningItemsByRow\PrintListDefiningItemsByRow.csproj", "{483DE720-FE52-4A11-B561-35155573C974}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -65,10 +67,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{6F832E4D-A1C1-4D09-94EA-63EB138B69DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6F832E4D-A1C1-4D09-94EA-63EB138B69DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6F832E4D-A1C1-4D09-94EA-63EB138B69DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6F832E4D-A1C1-4D09-94EA-63EB138B69DD}.Release|Any CPU.Build.0 = Release|Any CPU
 		{5AB16D5C-EC18-4F44-B677-2336D33A741B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{5AB16D5C-EC18-4F44-B677-2336D33A741B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5AB16D5C-EC18-4F44-B677-2336D33A741B}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -181,6 +179,10 @@ Global
 		{92C06AA3-7B2F-4A23-9461-872B0678EBAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{92C06AA3-7B2F-4A23-9461-872B0678EBAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{92C06AA3-7B2F-4A23-9461-872B0678EBAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{483DE720-FE52-4A11-B561-35155573C974}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{483DE720-FE52-4A11-B561-35155573C974}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{483DE720-FE52-4A11-B561-35155573C974}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{483DE720-FE52-4A11-B561-35155573C974}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
