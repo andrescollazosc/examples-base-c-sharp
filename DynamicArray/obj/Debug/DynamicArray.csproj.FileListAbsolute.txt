@@ -1,7 +1,0 @@
-C:\Users\acollazos\source\repos\AppConsoleTest\DynamicArray\bin\Debug\DynamicArray.exe.config
-C:\Users\acollazos\source\repos\AppConsoleTest\DynamicArray\bin\Debug\DynamicArray.exe
-C:\Users\acollazos\source\repos\AppConsoleTest\DynamicArray\bin\Debug\DynamicArray.pdb
-C:\Users\acollazos\source\repos\AppConsoleTest\DynamicArray\obj\Debug\DynamicArray.csprojAssemblyReference.cache
-C:\Users\acollazos\source\repos\AppConsoleTest\DynamicArray\obj\Debug\DynamicArray.csproj.CoreCompileInputs.cache
-C:\Users\acollazos\source\repos\AppConsoleTest\DynamicArray\obj\Debug\DynamicArray.exe
-C:\Users\acollazos\source\repos\AppConsoleTest\DynamicArray\obj\Debug\DynamicArray.pdb

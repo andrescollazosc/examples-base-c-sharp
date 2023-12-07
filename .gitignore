@@ -3,5 +3,7 @@
 *.txt
 *.cache
 .vs/
-**/obj
-**/bin
+.vscode/
+**/obj/
+**/bin/
+.fake

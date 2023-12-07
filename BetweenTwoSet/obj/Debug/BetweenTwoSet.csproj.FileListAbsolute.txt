@@ -1,7 +1,0 @@
-C:\Users\acollazos\source\repos\AppConsoleTest\BetweenTwoSet\bin\Debug\BetweenTwoSet.exe.config
-C:\Users\acollazos\source\repos\AppConsoleTest\BetweenTwoSet\bin\Debug\BetweenTwoSet.exe
-C:\Users\acollazos\source\repos\AppConsoleTest\BetweenTwoSet\bin\Debug\BetweenTwoSet.pdb
-C:\Users\acollazos\source\repos\AppConsoleTest\BetweenTwoSet\obj\Debug\BetweenTwoSet.csprojAssemblyReference.cache
-C:\Users\acollazos\source\repos\AppConsoleTest\BetweenTwoSet\obj\Debug\BetweenTwoSet.csproj.CoreCompileInputs.cache
-C:\Users\acollazos\source\repos\AppConsoleTest\BetweenTwoSet\obj\Debug\BetweenTwoSet.exe
-C:\Users\acollazos\source\repos\AppConsoleTest\BetweenTwoSet\obj\Debug\BetweenTwoSet.pdb
