@@ -1,6 +1,5 @@
 ﻿// See https://aka.ms/new-console-template for more information
-using System.Diagnostics;
-using System.Xml.Linq;
+using height_of_a_binary_tree;
 
 public class Program {
 
@@ -162,7 +161,7 @@ public class Program {
         
     }
 
-    public static int CalcHeight(Node root)
+    public static int CalcHeight(Node? root)
     {
         int levels = 0;
 
@@ -178,7 +177,7 @@ public class Program {
         }
         return levels;
     }
-    public static int InOrder(Node root)
+    public static int InOrder(Node? root)
     {
         if (root is not null)
         {
@@ -190,7 +189,7 @@ public class Program {
         return 0;
     }
 
-    public static int PreOrder(Node root)
+    public static int PreOrder(Node? root)
     {
         if (root is not null)
         {
@@ -202,7 +201,7 @@ public class Program {
         return 0;
     }
 
-    public static int PostOrder(Node root)
+    public static int PostOrder(Node? root)
     {
         if (root is not null)
         {
@@ -213,14 +212,6 @@ public class Program {
 
         return 0;
     }
-
-
-}
-
-public class Node {
-    public int Value { get; set; }
-    public Node Left { get; set; }
-    public Node Right { get; set; }
 }
 
 

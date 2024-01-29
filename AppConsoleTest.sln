@@ -59,7 +59,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AmazonDeliveryCenters", "Am
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MigratoryBirds", "MigratoryBirds\MigratoryBirds.csproj", "{92C06AA3-7B2F-4A23-9461-872B0678EBAF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrintListDefiningItemsByRow", "PrintListDefiningItemsByRow\PrintListDefiningItemsByRow.csproj", "{483DE720-FE52-4A11-B561-35155573C974}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrintListDefiningItemsByRow", "PrintListDefiningItemsByRow\PrintListDefiningItemsByRow.csproj", "{483DE720-FE52-4A11-B561-35155573C974}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cats-and-a-mouse", "cats-and-a-mouse\cats-and-a-mouse.csproj", "{9BB249A8-0679-4E0E-87AF-E7B1A2F79959}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -183,6 +185,10 @@ Global
 		{483DE720-FE52-4A11-B561-35155573C974}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{483DE720-FE52-4A11-B561-35155573C974}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{483DE720-FE52-4A11-B561-35155573C974}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BB249A8-0679-4E0E-87AF-E7B1A2F79959}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BB249A8-0679-4E0E-87AF-E7B1A2F79959}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BB249A8-0679-4E0E-87AF-E7B1A2F79959}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BB249A8-0679-4E0E-87AF-E7B1A2F79959}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

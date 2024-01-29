@@ -2,6 +2,7 @@
 using System.Text.Json;
 using System.Text.Json.Serialization;
 using System.Xml.Linq;
+using tree_level_order_traversal;
 
 public class Program
 {
@@ -133,9 +134,3 @@ public class Program
     
 }
 
-public class Node
-{
-    public int Value { get; set; }
-    public Node Left { get; set; }
-    public Node Right { get; set; }
-}

@@ -34,7 +34,7 @@ public class Program
         {
             char prevChar = '\0';
             var aux = new char[2];
-            string[] splittedWord = null;
+            string[] splittedWord = [];
 
             foreach (var character in word) {
                 if (!Char.IsLetter(character))

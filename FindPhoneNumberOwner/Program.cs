@@ -14,7 +14,7 @@ class Program {
     public static string solution(string[] A, string[] B, string P) {
         var phoneNumbers = B.Where(x => x.Contains(P));
         int position;
-        List<string> names= new List<string>();
+        List<string> names= [];
 
         foreach(string phoneNumber in phoneNumbers)
         {
@@ -26,7 +26,7 @@ class Program {
             
         }
 
-        if (names is not null || names.Count() > 0){
+        if (names.Any()){
             names.Sort();
             return names.FirstOrDefault();
         }else

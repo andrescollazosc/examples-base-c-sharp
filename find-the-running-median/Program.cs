@@ -1,7 +1,7 @@
 ﻿using System.Globalization;
 using System.Text.Json;
 
-public class program
+public class Program
 {
     public static void Main(string[] args)
     {
