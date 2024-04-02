@@ -6,24 +6,12 @@ class Program
     {
         int n = 25;
 
-        
-        Console.WriteLine(CalculateFactorial(n));
-        //extraLongFactorials(n);
+        extraLongFactorials(n);
     }
 
     public static void extraLongFactorials(int n)
     {
-        if (n == 0)
-            Console.WriteLine(n);
-
-        BigInteger factorial = n;
-        
-        while (n > 1)
-        {
-            n--;
-            factorial = factorial * n;
-        }
-
+        BigInteger factorial = CalculateFactorial(n);
         Console.WriteLine(factorial);
     }
 
