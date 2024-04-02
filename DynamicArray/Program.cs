@@ -1,8 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Text.Json;
 
 namespace DynamicArray
 {
+
+    // https://www.hackerrank.com/challenges/dynamic-array
     class Program
     {
         static void Main(string[] args)
@@ -15,7 +18,9 @@ namespace DynamicArray
                 new List<int> { 2, 1, 1 },
             };
 
-            var result = dynamicArray(2, arrayBi);
+            Console.WriteLine(JsonSerializer.Serialize(arrayBi));
+
+            var result = DynamicArray(2, arrayBi);
 
             foreach (var item in result)
             {
@@ -27,22 +32,23 @@ namespace DynamicArray
 
         private static List<int> copyResult = new List<int>() { 0, 0 };
 
-        public static List<int> dynamicArray(int n, List<List<int>> queries) {
+        public static List<int> DynamicArray(int n, List<List<int>> queries)
+        {
             List<int> result = new List<int>() { 0, 0 };
             int lastAnswer = 0;
-            int xId = 0;
+            int xId;
 
             foreach (var item in queries)
             {
                 for (int i = 0; i < 1; i++) {
-                    if (item[i] == (int)QueryEnum.QuetyOne)
+                    if (item[i] == (int)QueryEnum.QueryOne)
                     {
                         xId = FindPost(item[1], lastAnswer, n);
                         result[xId] = item[2];
                         copyResult[xId] = item[2];
                     }
 
-                    if (item[i] == (int)QueryEnum.QuetyTwo)
+                    if (item[i] == (int)QueryEnum.QueryTwo)
                     {
                         xId = FindPost(item[1], lastAnswer, n);
                         var newPos = item[2] % item.Count;
@@ -55,21 +61,14 @@ namespace DynamicArray
             return result;
         }
 
-        private static List<int> FindQueryTwo(List<int> resultList) {
-            return null;
-        }
-
         private static int FindPost(int posX, int lastAnswer, int n) {
             return (posX ^ lastAnswer) % n;
         }
-
-        
-
     }
 
     public enum QueryEnum { 
-        QuetyOne = 1,
-        QuetyTwo = 2
+        QueryOne = 1,
+        QueryTwo = 2
     }
 
 }
