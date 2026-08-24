@@ -1,0 +1,14 @@
+* text=auto eol=lf
+
+# Visual Studio requiere CRLF en la solución
+*.sln text eol=crlf
+
+# Binarios
+*.dll binary
+*.exe binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.class binary

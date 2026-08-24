@@ -1,31 +1,10 @@
-﻿using System.Diagnostics;
+﻿using BenchmarkDotNet.Running;
 
 public class Program {
 
-    public static void Main(String[] args) {
-        Console.WriteLine("Ingresa un palindrome:");
-        string word = Console.ReadLine();
-
-
-        Stopwatch timeMeasure1 = new Stopwatch();
-        timeMeasure1.Start();
-        
-        var resPal1 = IsPalindrome(word);
-        Console.WriteLine(resPal1 ? "Es palindrome." : "No es palindrome.");
-
-        timeMeasure1.Stop();
-        Console.WriteLine($"Tardó {timeMeasure1.ElapsedTicks} Ticks");
-
-
-
-        Stopwatch timeMeasure2 = new Stopwatch();
-        timeMeasure2.Start();
-
-        var resPal2 = IsPalindromeCommon(word);
-        Console.WriteLine(resPal2 ? "Es palindrome." : "No es palindrome.");
-
-        timeMeasure2.Stop();
-        Console.WriteLine($"Tardó {timeMeasure2.ElapsedTicks} Ticks");
+    public static void Main(string[] args)
+    {
+        BenchmarkRunner.Run<PalindromeBenchmarks>();
     }
 
     private static bool IsPalindromeStack(string word)
@@ -48,7 +27,7 @@ public class Program {
         return false;
     }
 
-    private static bool IsPalindrome(string word)
+    public static bool IsPalindrome(string word)
     {
         if (word.Length == 0)
             return false;
@@ -72,7 +51,7 @@ public class Program {
         return i == steps;
     }
 
-    private static bool IsPalindromeCommon(string word)
+    public static bool IsPalindromeCommon(string word)
     {
         int j = word.Length - 1;
         string result = "";

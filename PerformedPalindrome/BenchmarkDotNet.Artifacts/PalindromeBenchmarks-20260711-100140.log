@@ -1,0 +1,326 @@
+// Validating benchmarks:
+// ***** BenchmarkRunner: Start   *****
+// ***** Found 2 benchmark(s) in total *****
+// ***** Building 1 exe(s) in Parallel: Start   *****
+// start dotnet  restore --nodeReuse:false /p:UseSharedCompilation=false /p:Deterministic=true /p:Optimize=true /p:ArtifactsPath="/media/datos_windows/repos/hackerrank-challengues/PerformedPalindrome/bin/Release/net8.0/PerformedPalindrome-DefaultJob-1/" /p:OutDir="/media/datos_windows/repos/hackerrank-challengues/PerformedPalindrome/bin/Release/net8.0/PerformedPalindrome-DefaultJob-1/bin/Release/net10.0/" /p:OutputPath="/media/datos_windows/repos/hackerrank-challengues/PerformedPalindrome/bin/Release/net8.0/PerformedPalindrome-DefaultJob-1/bin/Release/net10.0/" /p:PublishDir="/media/datos_windows/repos/hackerrank-challengues/PerformedPalindrome/bin/Release/net8.0/PerformedPalindrome-DefaultJob-1/publish/" in /media/datos_windows/repos/hackerrank-challengues/PerformedPalindrome/bin/Release/net8.0/PerformedPalindrome-DefaultJob-1
+// command took 0.81 sec and exited with 0
+// start dotnet  build -c Release --no-restore --nodeReuse:false /p:UseSharedCompilation=false /p:Deterministic=true /p:Optimize=true /p:ArtifactsPath="/media/datos_windows/repos/hackerrank-challengues/PerformedPalindrome/bin/Release/net8.0/PerformedPalindrome-DefaultJob-1/" /p:OutDir="/media/datos_windows/repos/hackerrank-challengues/PerformedPalindrome/bin/Release/net8.0/PerformedPalindrome-DefaultJob-1/bin/Release/net10.0/" /p:OutputPath="/media/datos_windows/repos/hackerrank-challengues/PerformedPalindrome/bin/Release/net8.0/PerformedPalindrome-DefaultJob-1/bin/Release/net10.0/" /p:PublishDir="/media/datos_windows/repos/hackerrank-challengues/PerformedPalindrome/bin/Release/net8.0/PerformedPalindrome-DefaultJob-1/publish/" --output "/media/datos_windows/repos/hackerrank-challengues/PerformedPalindrome/bin/Release/net8.0/PerformedPalindrome-DefaultJob-1/bin/Release/net10.0/" in /media/datos_windows/repos/hackerrank-challengues/PerformedPalindrome/bin/Release/net8.0/PerformedPalindrome-DefaultJob-1
+// command took 2.62 sec and exited with 0
+// ***** Done, took 00:00:03 (3.51 sec)   *****
+// Found 2 benchmarks:
+//   PalindromeBenchmarks.IsPalindrome: DefaultJob
+//   PalindromeBenchmarks.IsPalindromeCommon: DefaultJob
+
+// **************************
+// Benchmark: PalindromeBenchmarks.IsPalindrome: DefaultJob
+// *** Execute ***
+// Launch: 1 / 1
+// Execute: dotnet PerformedPalindrome-DefaultJob-1.dll --anonymousPipes 115 116 --benchmarkName PalindromeBenchmarks.IsPalindrome --job Default --benchmarkId 0 in /media/datos_windows/repos/hackerrank-challengues/PerformedPalindrome/bin/Release/net8.0/PerformedPalindrome-DefaultJob-1/bin/Release/net10.0
+// Failed to set up high priority (Permission denied). In order to run benchmarks with high priority, make sure you have the right permissions.
+// BeforeAnythingElse
+
+// Benchmark Process Environment Information:
+// BenchmarkDotNet v0.15.8
+// Runtime=.NET 10.0.9 (10.0.9, 10.0.926.27113), X64 RyuJIT x86-64-v3
+// GC=Concurrent Workstation
+// HardwareIntrinsics=AVX2+BMI1+BMI2+F16C+FMA+LZCNT+MOVBE,AVX,SSE3+SSSE3+SSE4.1+SSE4.2+POPCNT,X86Base+SSE+SSE2,AES+PCLMUL,AvxVnni,SERIALIZE VectorSize=256
+// Job: DefaultJob
+
+OverheadJitting  1: 1 op, 155572.00 ns, 155.5720 us/op
+WorkloadJitting  1: 1 op, 322861.00 ns, 322.8610 us/op
+
+OverheadJitting  2: 16 op, 223010.00 ns, 13.9381 us/op
+WorkloadJitting  2: 16 op, 225817.00 ns, 14.1136 us/op
+
+WorkloadPilot    1: 16 op, 1622.00 ns, 101.3750 ns/op
+WorkloadPilot    2: 32 op, 2430.00 ns, 75.9375 ns/op
+WorkloadPilot    3: 64 op, 4155.00 ns, 64.9219 ns/op
+WorkloadPilot    4: 128 op, 7118.00 ns, 55.6094 ns/op
+WorkloadPilot    5: 256 op, 15382.00 ns, 60.0859 ns/op
+WorkloadPilot    6: 512 op, 30272.00 ns, 59.1250 ns/op
+WorkloadPilot    7: 1024 op, 86538.00 ns, 84.5098 ns/op
+WorkloadPilot    8: 2048 op, 151987.00 ns, 74.2124 ns/op
+WorkloadPilot    9: 4096 op, 220717.00 ns, 53.8860 ns/op
+WorkloadPilot   10: 8192 op, 406488.00 ns, 49.6201 ns/op
+WorkloadPilot   11: 16384 op, 739149.00 ns, 45.1141 ns/op
+WorkloadPilot   12: 32768 op, 1353359.00 ns, 41.3012 ns/op
+WorkloadPilot   13: 65536 op, 2833733.00 ns, 43.2393 ns/op
+WorkloadPilot   14: 131072 op, 5277611.00 ns, 40.2650 ns/op
+WorkloadPilot   15: 262144 op, 10587010.00 ns, 40.3862 ns/op
+WorkloadPilot   16: 524288 op, 21096367.00 ns, 40.2381 ns/op
+WorkloadPilot   17: 1048576 op, 42350505.00 ns, 40.3886 ns/op
+WorkloadPilot   18: 2097152 op, 44361315.00 ns, 21.1531 ns/op
+WorkloadPilot   19: 4194304 op, 16994012.00 ns, 4.0517 ns/op
+WorkloadPilot   20: 8388608 op, 34964818.00 ns, 4.1681 ns/op
+WorkloadPilot   21: 16777216 op, 66214807.00 ns, 3.9467 ns/op
+WorkloadPilot   22: 33554432 op, 131608252.00 ns, 3.9222 ns/op
+WorkloadPilot   23: 67108864 op, 264878866.00 ns, 3.9470 ns/op
+WorkloadPilot   24: 134217728 op, 523856378.00 ns, 3.9030 ns/op
+
+OverheadWarmup   1: 134217728 op, 273241036.00 ns, 2.0358 ns/op
+OverheadWarmup   2: 134217728 op, 215754220.00 ns, 1.6075 ns/op
+OverheadWarmup   3: 134217728 op, 215360447.00 ns, 1.6046 ns/op
+OverheadWarmup   4: 134217728 op, 215737921.00 ns, 1.6074 ns/op
+OverheadWarmup   5: 134217728 op, 216310017.00 ns, 1.6116 ns/op
+OverheadWarmup   6: 134217728 op, 215242139.00 ns, 1.6037 ns/op
+OverheadWarmup   7: 134217728 op, 215581087.00 ns, 1.6062 ns/op
+OverheadWarmup   8: 134217728 op, 215565215.00 ns, 1.6061 ns/op
+
+OverheadActual   1: 134217728 op, 216494815.00 ns, 1.6130 ns/op
+OverheadActual   2: 134217728 op, 215495980.00 ns, 1.6056 ns/op
+OverheadActual   3: 134217728 op, 215888791.00 ns, 1.6085 ns/op
+OverheadActual   4: 134217728 op, 215507534.00 ns, 1.6057 ns/op
+OverheadActual   5: 134217728 op, 215428819.00 ns, 1.6051 ns/op
+OverheadActual   6: 134217728 op, 216005693.00 ns, 1.6094 ns/op
+OverheadActual   7: 134217728 op, 215510482.00 ns, 1.6057 ns/op
+OverheadActual   8: 134217728 op, 215547649.00 ns, 1.6060 ns/op
+OverheadActual   9: 134217728 op, 215348960.00 ns, 1.6045 ns/op
+OverheadActual  10: 134217728 op, 215364905.00 ns, 1.6046 ns/op
+OverheadActual  11: 134217728 op, 216821597.00 ns, 1.6154 ns/op
+OverheadActual  12: 134217728 op, 215920516.00 ns, 1.6087 ns/op
+OverheadActual  13: 134217728 op, 220232818.00 ns, 1.6409 ns/op
+OverheadActual  14: 134217728 op, 217290593.00 ns, 1.6189 ns/op
+OverheadActual  15: 134217728 op, 217289608.00 ns, 1.6189 ns/op
+
+WorkloadWarmup   1: 134217728 op, 528978334.00 ns, 3.9412 ns/op
+WorkloadWarmup   2: 134217728 op, 525895776.00 ns, 3.9182 ns/op
+WorkloadWarmup   3: 134217728 op, 527103339.00 ns, 3.9272 ns/op
+WorkloadWarmup   4: 134217728 op, 527611861.00 ns, 3.9310 ns/op
+WorkloadWarmup   5: 134217728 op, 541456954.00 ns, 4.0342 ns/op
+WorkloadWarmup   6: 134217728 op, 560427424.00 ns, 4.1755 ns/op
+WorkloadWarmup   7: 134217728 op, 527872129.00 ns, 3.9330 ns/op
+WorkloadWarmup   8: 134217728 op, 531842030.00 ns, 3.9625 ns/op
+WorkloadWarmup   9: 134217728 op, 535913093.00 ns, 3.9929 ns/op
+WorkloadWarmup  10: 134217728 op, 538275318.00 ns, 4.0105 ns/op
+WorkloadWarmup  11: 134217728 op, 524920636.00 ns, 3.9110 ns/op
+
+// BeforeActualRun
+WorkloadActual   1: 134217728 op, 524059129.00 ns, 3.9045 ns/op
+WorkloadActual   2: 134217728 op, 523653663.00 ns, 3.9015 ns/op
+WorkloadActual   3: 134217728 op, 524776197.00 ns, 3.9099 ns/op
+WorkloadActual   4: 134217728 op, 525339748.00 ns, 3.9141 ns/op
+WorkloadActual   5: 134217728 op, 523620535.00 ns, 3.9013 ns/op
+WorkloadActual   6: 134217728 op, 525304507.00 ns, 3.9138 ns/op
+WorkloadActual   7: 134217728 op, 525429320.00 ns, 3.9148 ns/op
+WorkloadActual   8: 134217728 op, 523444710.00 ns, 3.9000 ns/op
+WorkloadActual   9: 134217728 op, 526666955.00 ns, 3.9240 ns/op
+WorkloadActual  10: 134217728 op, 524596763.00 ns, 3.9086 ns/op
+WorkloadActual  11: 134217728 op, 551389622.00 ns, 4.1082 ns/op
+WorkloadActual  12: 134217728 op, 549131605.00 ns, 4.0913 ns/op
+WorkloadActual  13: 134217728 op, 543572082.00 ns, 4.0499 ns/op
+WorkloadActual  14: 134217728 op, 544959526.00 ns, 4.0603 ns/op
+WorkloadActual  15: 134217728 op, 544986531.00 ns, 4.0605 ns/op
+WorkloadActual  16: 134217728 op, 547240109.00 ns, 4.0773 ns/op
+WorkloadActual  17: 134217728 op, 525007997.00 ns, 3.9116 ns/op
+WorkloadActual  18: 134217728 op, 527405719.00 ns, 3.9295 ns/op
+
+// AfterActualRun
+WorkloadResult   1: 134217728 op, 308170338.00 ns, 2.2960 ns/op
+WorkloadResult   2: 134217728 op, 307764872.00 ns, 2.2930 ns/op
+WorkloadResult   3: 134217728 op, 308887406.00 ns, 2.3014 ns/op
+WorkloadResult   4: 134217728 op, 309450957.00 ns, 2.3056 ns/op
+WorkloadResult   5: 134217728 op, 307731744.00 ns, 2.2928 ns/op
+WorkloadResult   6: 134217728 op, 309415716.00 ns, 2.3053 ns/op
+WorkloadResult   7: 134217728 op, 309540529.00 ns, 2.3063 ns/op
+WorkloadResult   8: 134217728 op, 307555919.00 ns, 2.2915 ns/op
+WorkloadResult   9: 134217728 op, 310778164.00 ns, 2.3155 ns/op
+WorkloadResult  10: 134217728 op, 308707972.00 ns, 2.3001 ns/op
+WorkloadResult  11: 134217728 op, 335500831.00 ns, 2.4997 ns/op
+WorkloadResult  12: 134217728 op, 333242814.00 ns, 2.4829 ns/op
+WorkloadResult  13: 134217728 op, 327683291.00 ns, 2.4414 ns/op
+WorkloadResult  14: 134217728 op, 329070735.00 ns, 2.4518 ns/op
+WorkloadResult  15: 134217728 op, 329097740.00 ns, 2.4520 ns/op
+WorkloadResult  16: 134217728 op, 331351318.00 ns, 2.4688 ns/op
+WorkloadResult  17: 134217728 op, 309119206.00 ns, 2.3031 ns/op
+WorkloadResult  18: 134217728 op, 311516928.00 ns, 2.3210 ns/op
+
+// AfterAll
+// Benchmark Process 82877 has exited with code 0.
+
+Mean = 2.357 ns, StdErr = 0.019 ns (0.81%), N = 18, StdDev = 0.081 ns
+Min = 2.291 ns, Q1 = 2.300 ns, Median = 2.306 ns, Q3 = 2.449 ns, Max = 2.500 ns
+IQR = 0.149 ns, LowerFence = 2.077 ns, UpperFence = 2.672 ns
+ConfidenceInterval = [2.282 ns; 2.432 ns] (CI 99.9%), Margin = 0.075 ns (3.19% of Mean)
+Skewness = 0.69, Kurtosis = 1.52, MValue = 3
+
+// ** Remained 1 (50.0%) benchmark(s) to run. Estimated finish 2026-07-11 10:02 (0h 0m from now) **
+// **************************
+// Benchmark: PalindromeBenchmarks.IsPalindromeCommon: DefaultJob
+// *** Execute ***
+// Launch: 1 / 1
+// Execute: dotnet PerformedPalindrome-DefaultJob-1.dll --anonymousPipes 115 116 --benchmarkName PalindromeBenchmarks.IsPalindromeCommon --job Default --benchmarkId 1 in /media/datos_windows/repos/hackerrank-challengues/PerformedPalindrome/bin/Release/net8.0/PerformedPalindrome-DefaultJob-1/bin/Release/net10.0
+// Failed to set up high priority (Permission denied). In order to run benchmarks with high priority, make sure you have the right permissions.
+// BeforeAnythingElse
+
+// Benchmark Process Environment Information:
+// BenchmarkDotNet v0.15.8
+// Runtime=.NET 10.0.9 (10.0.9, 10.0.926.27113), X64 RyuJIT x86-64-v3
+// GC=Concurrent Workstation
+// HardwareIntrinsics=AVX2+BMI1+BMI2+F16C+FMA+LZCNT+MOVBE,AVX,SSE3+SSSE3+SSE4.1+SSE4.2+POPCNT,X86Base+SSE+SSE2,AES+PCLMUL,AvxVnni,SERIALIZE VectorSize=256
+// Job: DefaultJob
+
+OverheadJitting  1: 1 op, 137389.00 ns, 137.3890 us/op
+WorkloadJitting  1: 1 op, 244297.00 ns, 244.2970 us/op
+
+OverheadJitting  2: 16 op, 226228.00 ns, 14.1393 us/op
+WorkloadJitting  2: 16 op, 236521.00 ns, 14.7826 us/op
+
+WorkloadPilot    1: 16 op, 14021.00 ns, 876.3125 ns/op
+WorkloadPilot    2: 32 op, 28247.00 ns, 882.7188 ns/op
+WorkloadPilot    3: 64 op, 31640.00 ns, 494.3750 ns/op
+WorkloadPilot    4: 128 op, 62438.00 ns, 487.7969 ns/op
+WorkloadPilot    5: 256 op, 122685.00 ns, 479.2383 ns/op
+WorkloadPilot    6: 512 op, 261080.00 ns, 509.9219 ns/op
+WorkloadPilot    7: 1024 op, 457906.00 ns, 447.1738 ns/op
+WorkloadPilot    8: 2048 op, 877641.00 ns, 428.5356 ns/op
+WorkloadPilot    9: 4096 op, 1715639.00 ns, 418.8572 ns/op
+WorkloadPilot   10: 8192 op, 3561561.00 ns, 434.7609 ns/op
+WorkloadPilot   11: 16384 op, 6840281.00 ns, 417.4976 ns/op
+WorkloadPilot   12: 32768 op, 10873151.00 ns, 331.8222 ns/op
+WorkloadPilot   13: 65536 op, 18016253.00 ns, 274.9062 ns/op
+WorkloadPilot   14: 131072 op, 35348066.00 ns, 269.6843 ns/op
+WorkloadPilot   15: 262144 op, 57603767.00 ns, 219.7409 ns/op
+WorkloadPilot   16: 524288 op, 54602613.00 ns, 104.1462 ns/op
+WorkloadPilot   17: 1048576 op, 112450069.00 ns, 107.2407 ns/op
+WorkloadPilot   18: 2097152 op, 223916151.00 ns, 106.7715 ns/op
+WorkloadPilot   19: 4194304 op, 451929018.00 ns, 107.7483 ns/op
+WorkloadPilot   20: 8388608 op, 908012338.00 ns, 108.2435 ns/op
+
+OverheadWarmup   1: 8388608 op, 18932316.00 ns, 2.2569 ns/op
+OverheadWarmup   2: 8388608 op, 18871293.00 ns, 2.2496 ns/op
+OverheadWarmup   3: 8388608 op, 18814690.00 ns, 2.2429 ns/op
+OverheadWarmup   4: 8388608 op, 19668157.00 ns, 2.3446 ns/op
+OverheadWarmup   5: 8388608 op, 18898544.00 ns, 2.2529 ns/op
+OverheadWarmup   6: 8388608 op, 19007724.00 ns, 2.2659 ns/op
+OverheadWarmup   7: 8388608 op, 18939158.00 ns, 2.2577 ns/op
+
+OverheadActual   1: 8388608 op, 18900107.00 ns, 2.2531 ns/op
+OverheadActual   2: 8388608 op, 18958861.00 ns, 2.2601 ns/op
+OverheadActual   3: 8388608 op, 19074254.00 ns, 2.2738 ns/op
+OverheadActual   4: 8388608 op, 18993455.00 ns, 2.2642 ns/op
+OverheadActual   5: 8388608 op, 18789228.00 ns, 2.2399 ns/op
+OverheadActual   6: 8388608 op, 18847755.00 ns, 2.2468 ns/op
+OverheadActual   7: 8388608 op, 18890753.00 ns, 2.2520 ns/op
+OverheadActual   8: 8388608 op, 18929187.00 ns, 2.2565 ns/op
+OverheadActual   9: 8388608 op, 19046127.00 ns, 2.2705 ns/op
+OverheadActual  10: 8388608 op, 18919087.00 ns, 2.2553 ns/op
+OverheadActual  11: 8388608 op, 18777449.00 ns, 2.2384 ns/op
+OverheadActual  12: 8388608 op, 18978110.00 ns, 2.2624 ns/op
+OverheadActual  13: 8388608 op, 19002398.00 ns, 2.2653 ns/op
+OverheadActual  14: 8388608 op, 18885816.00 ns, 2.2514 ns/op
+OverheadActual  15: 8388608 op, 18878597.00 ns, 2.2505 ns/op
+
+WorkloadWarmup   1: 8388608 op, 867310409.00 ns, 103.3915 ns/op
+WorkloadWarmup   2: 8388608 op, 900360972.00 ns, 107.3314 ns/op
+WorkloadWarmup   3: 8388608 op, 910662083.00 ns, 108.5594 ns/op
+WorkloadWarmup   4: 8388608 op, 907978146.00 ns, 108.2394 ns/op
+WorkloadWarmup   5: 8388608 op, 910960169.00 ns, 108.5949 ns/op
+WorkloadWarmup   6: 8388608 op, 913755981.00 ns, 108.9282 ns/op
+WorkloadWarmup   7: 8388608 op, 913055730.00 ns, 108.8447 ns/op
+
+// BeforeActualRun
+WorkloadActual   1: 8388608 op, 916984393.00 ns, 109.3131 ns/op
+WorkloadActual   2: 8388608 op, 931092314.00 ns, 110.9949 ns/op
+WorkloadActual   3: 8388608 op, 932160421.00 ns, 111.1222 ns/op
+WorkloadActual   4: 8388608 op, 931591990.00 ns, 111.0544 ns/op
+WorkloadActual   5: 8388608 op, 927774500.00 ns, 110.5993 ns/op
+WorkloadActual   6: 8388608 op, 934751959.00 ns, 111.4311 ns/op
+WorkloadActual   7: 8388608 op, 929656303.00 ns, 110.8237 ns/op
+WorkloadActual   8: 8388608 op, 927573932.00 ns, 110.5754 ns/op
+WorkloadActual   9: 8388608 op, 934973256.00 ns, 111.4575 ns/op
+WorkloadActual  10: 8388608 op, 935388553.00 ns, 111.5070 ns/op
+WorkloadActual  11: 8388608 op, 897739073.00 ns, 107.0188 ns/op
+WorkloadActual  12: 8388608 op, 907979515.00 ns, 108.2396 ns/op
+WorkloadActual  13: 8388608 op, 907178670.00 ns, 108.1441 ns/op
+WorkloadActual  14: 8388608 op, 899839681.00 ns, 107.2692 ns/op
+WorkloadActual  15: 8388608 op, 903602925.00 ns, 107.7179 ns/op
+
+// AfterActualRun
+WorkloadResult   1: 8388608 op, 898065306.00 ns, 107.0577 ns/op
+WorkloadResult   2: 8388608 op, 912173227.00 ns, 108.7395 ns/op
+WorkloadResult   3: 8388608 op, 913241334.00 ns, 108.8669 ns/op
+WorkloadResult   4: 8388608 op, 912672903.00 ns, 108.7991 ns/op
+WorkloadResult   5: 8388608 op, 908855413.00 ns, 108.3440 ns/op
+WorkloadResult   6: 8388608 op, 915832872.00 ns, 109.1758 ns/op
+WorkloadResult   7: 8388608 op, 910737216.00 ns, 108.5683 ns/op
+WorkloadResult   8: 8388608 op, 908654845.00 ns, 108.3201 ns/op
+WorkloadResult   9: 8388608 op, 916054169.00 ns, 109.2022 ns/op
+WorkloadResult  10: 8388608 op, 916469466.00 ns, 109.2517 ns/op
+WorkloadResult  11: 8388608 op, 878819986.00 ns, 104.7635 ns/op
+WorkloadResult  12: 8388608 op, 889060428.00 ns, 105.9843 ns/op
+WorkloadResult  13: 8388608 op, 888259583.00 ns, 105.8888 ns/op
+WorkloadResult  14: 8388608 op, 880920594.00 ns, 105.0139 ns/op
+WorkloadResult  15: 8388608 op, 884683838.00 ns, 105.4625 ns/op
+
+// AfterAll
+// Benchmark Process 83031 has exited with code 0.
+
+Mean = 107.563 ns, StdErr = 0.432 ns (0.40%), N = 15, StdDev = 1.674 ns
+Min = 104.764 ns, Q1 = 105.937 ns, Median = 108.344 ns, Q3 = 108.833 ns, Max = 109.252 ns
+IQR = 2.896 ns, LowerFence = 101.592 ns, UpperFence = 113.178 ns
+ConfidenceInterval = [105.773 ns; 109.352 ns] (CI 99.9%), Margin = 1.790 ns (1.66% of Mean)
+Skewness = -0.5, Kurtosis = 1.43, MValue = 2
+
+// ** Remained 0 (0.0%) benchmark(s) to run. Estimated finish 2026-07-11 10:02 (0h 0m from now) **
+// ***** BenchmarkRunner: Finish  *****
+
+// * Export *
+  BenchmarkDotNet.Artifacts/results/PalindromeBenchmarks-report.csv
+  BenchmarkDotNet.Artifacts/results/PalindromeBenchmarks-report-github.md
+  BenchmarkDotNet.Artifacts/results/PalindromeBenchmarks-report.html
+
+// * Detailed results *
+PalindromeBenchmarks.IsPalindrome: DefaultJob
+Runtime = .NET 10.0.9 (10.0.9, 10.0.926.27113), X64 RyuJIT x86-64-v3; GC = Concurrent Workstation
+Mean = 2.357 ns, StdErr = 0.019 ns (0.81%), N = 18, StdDev = 0.081 ns
+Min = 2.291 ns, Q1 = 2.300 ns, Median = 2.306 ns, Q3 = 2.449 ns, Max = 2.500 ns
+IQR = 0.149 ns, LowerFence = 2.077 ns, UpperFence = 2.672 ns
+ConfidenceInterval = [2.282 ns; 2.432 ns] (CI 99.9%), Margin = 0.075 ns (3.19% of Mean)
+Skewness = 0.69, Kurtosis = 1.52, MValue = 3
+-------------------- Histogram --------------------
+[2.266 ns ; 2.347 ns) | @@@@@@@@@@@@
+[2.347 ns ; 2.430 ns) | 
+[2.430 ns ; 2.511 ns) | @@@@@@
+---------------------------------------------------
+
+PalindromeBenchmarks.IsPalindromeCommon: DefaultJob
+Runtime = .NET 10.0.9 (10.0.9, 10.0.926.27113), X64 RyuJIT x86-64-v3; GC = Concurrent Workstation
+Mean = 107.563 ns, StdErr = 0.432 ns (0.40%), N = 15, StdDev = 1.674 ns
+Min = 104.764 ns, Q1 = 105.937 ns, Median = 108.344 ns, Q3 = 108.833 ns, Max = 109.252 ns
+IQR = 2.896 ns, LowerFence = 101.592 ns, UpperFence = 113.178 ns
+ConfidenceInterval = [105.773 ns; 109.352 ns] (CI 99.9%), Margin = 1.790 ns (1.66% of Mean)
+Skewness = -0.5, Kurtosis = 1.43, MValue = 2
+-------------------- Histogram --------------------
+[104.320 ns ; 109.874 ns) | @@@@@@@@@@@@@@@
+---------------------------------------------------
+
+// * Summary *
+
+BenchmarkDotNet v0.15.8, Linux Ubuntu 26.04 LTS (Resolute Raccoon)
+12th Gen Intel Core i7-12700H 0.40GHz, 1 CPU, 20 logical and 14 physical cores
+.NET SDK 10.0.301
+  [Host]     : .NET 10.0.9 (10.0.9, 10.0.926.27113), X64 RyuJIT x86-64-v3
+  DefaultJob : .NET 10.0.9 (10.0.9, 10.0.926.27113), X64 RyuJIT x86-64-v3
+
+
+| Method             | Mean       | Error     | StdDev    |
+|------------------- |-----------:|----------:|----------:|
+| IsPalindrome       |   2.357 ns | 0.0752 ns | 0.0805 ns |
+| IsPalindromeCommon | 107.563 ns | 1.7899 ns | 1.6742 ns |
+
+// * Warnings *
+MultimodalDistribution
+  PalindromeBenchmarks.IsPalindrome: Default -> It seems that the distribution can have several modes (mValue = 3)
+
+// * Legends *
+  Mean   : Arithmetic mean of all measurements
+  Error  : Half of 99.9% confidence interval
+  StdDev : Standard deviation of all measurements
+  1 ns   : 1 Nanosecond (0.000000001 sec)
+
+// ***** BenchmarkRunner: End *****
+Run time: 00:00:44 (44.46 sec), executed benchmarks: 2
+
+Global total time: 00:00:48 (48.04 sec), executed benchmarks: 2
+// * Artifacts cleanup *
+Artifacts cleanup is finished

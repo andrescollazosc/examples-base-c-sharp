@@ -1,5 +1,8 @@
 *.dll
+*.exe
 *.pdb
+*.out
+*.class
 *.txt
 *.cache
 .vs/
