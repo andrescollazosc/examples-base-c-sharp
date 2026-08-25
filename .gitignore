@@ -1,5 +1,8 @@
 *.dll
+*.exe
 *.pdb
+*.out
+*.class
 *.txt
 *.cache
 .vs/
@@ -7,3 +10,6 @@
 **/obj/
 **/bin/
 .fake
+.idea/
+.DS_Store
+.github/copilot-instructions.md
